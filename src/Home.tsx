@@ -90,7 +90,7 @@ const Card = styled(Paper)`
   min-width: 40px;
   padding: 24px;
   h1{
-    margin:0px;
+    margin:10px;
   }
 `;
 
@@ -554,10 +554,7 @@ const Home = (props: HomeProps) => {
                     <Menu>
                         <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">Menu 1</a>
                         </li>
-                        <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 2</a></li>
-                        <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 3</a></li>
+
                     </Menu>
                     <Wallet>
                         {wallet ?
@@ -656,7 +653,7 @@ const Home = (props: HomeProps) => {
                               <SolExplorerLink href={solanaExplorerLink} target="_blank">View on Solscan</SolExplorerLink>}
                         </NFT>
                     </DesContainer>
-                    <DesContainer>
+                    {/* <DesContainer>
                         <Des elevation={2}>
                             <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 1</GoldTitle></LogoAligner>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -684,7 +681,7 @@ const Home = (props: HomeProps) => {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt.</p>
                         </Des>
-                    </DesContainer>
+                    </DesContainer> */}
                 </MintContainer>
             </MainContainer>
             <Snackbar
