@@ -234,7 +234,7 @@ const Price = styled(Chip)`
 
 const Image = styled.img`
   min-height: 300px;
-  min-width: 300px;
+  min-width: 280px;
   max-height: 400px;
   max-width: 400px;
   border-radius: 7px;
