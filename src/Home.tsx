@@ -656,7 +656,7 @@ const Home = (props: HomeProps) => {
             )}
           </Wallet>
         </WalletContainer>
-        {/* <ShimmerTitle>MINT IS LIVE !</ShimmerTitle> */}
+        <ShimmerTitle>MINT IS LIVE !</ShimmerTitle>
         <br />
         <MintContainer>
           <DesContainer>
