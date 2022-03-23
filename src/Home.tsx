@@ -28,13 +28,12 @@ const splTokenName = process.env.REACT_APP_SPL_TOKEN_TO_MINT_NAME
   : "TOKEN";
 
 const WalletContainer = styled.div`
-width:100%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   background: yellow;
-
 `;
 
 const WalletAmount = styled.div`
